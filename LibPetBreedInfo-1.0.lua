@@ -1,4 +1,4 @@
-local MAJOR, MINOR = "LibPetBreedInfo-1.0", 59
+local MAJOR, MINOR = "LibPetBreedInfo-1.0", 60
 local lib, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
 
 if not lib then return end
@@ -1535,7 +1535,26 @@ lib.breedData.speciesToBaseStatProfile = {
     [1981] = {8, 8, 8},
     [1982] = {8, 8, 8},
     [1983] = {8, 8, 8},
-    [1984] = {7.5, 8, 8.5},
+    [1984] = {8.5, 8, 7.5},
+	[2004] = {7.5, 8, 8.5},
+    [2008] = {7.75, 8.25, 8},
+    [2009] = {8, 8, 8},
+    [2010] = {8.5, 8, 7.5},
+    [2011] = {7.75, 8, 8.25},
+    [2012] = {8, 8, 8},
+    [2013] = {8, 8, 8},
+    [2014] = {8, 8, 8},
+    [2015] = {8, 8, 8},
+    [2016] = {8, 8, 8},
+    [2017] = {8, 8.5, 7.5},
+    [2018] = {8, 8, 8},
+    [2022] = {8, 9.25, 6.75},
+    [2035] = {8, 8, 8},
+    [2036] = {8, 8, 8},
+    [2037] = {8, 8, 8},
+    [2042] = {7.75, 7.75, 8.5},
+    [2046] = {8, 8, 8},
+    [2047] = {8, 8.25, 7.75},
 }
 
 
@@ -2816,6 +2835,10 @@ lib.breedData.speciesToAvailableBreeds = {
     --[1982] = {???}, -- TAMER: Buzz
     --[1983] = {???}, -- TAMER: Cherry
     [1984] = {6, 7, 9}, -- NEW: Albino Buzzard
+	[2004] = {7}, -- NEW: Trashy
+	[2017] = {4}, -- NEW: Infinite Hatchling
+	[2018] = {10}, -- NEW: Paradox Spirit
+	[2022] = {3}, -- NEW: Tylarr Gronnden
 }
 
 --[[
